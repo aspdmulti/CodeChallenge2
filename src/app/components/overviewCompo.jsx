@@ -18,13 +18,14 @@ function OverviewCompo() {
       <div className="lg:mx-60 my-5">
         <div className=" bg-slate-700 text-white p-2 rounded">
           <p>
+            {`
             Est. at 2024, we're a game development company that builds games
             based on client requests, whether they have advanced knowledge of
             coding and how project building works, to just have an imagination
             of what the game they want to build. We take our clients concepts
             and develop a game that's ready to be deployed. Filled with expert
             members at their own jobdesk, we're confident that we can make your
-            dream come true !
+            dream come true !`}
           </p>
         </div>
         <div className="lg:flex my-10 items-center justify-center hidden">
@@ -53,7 +54,7 @@ function OverviewCompo() {
             <span className="flex justify-center">
               <IoLogoGameControllerB color="#334173" size={70} />
             </span>
-            <p>Playtest & consultation</p>
+            <p>{`Playtest & consultation`}</p>
           </div>
           <FaArrowRightLong color="#334173" size={50} />
           <div className="flex-col items-center text-center w-28 mx-3">
@@ -95,7 +96,7 @@ function OverviewCompo() {
             <span className="flex justify-center">
               <IoLogoGameControllerB color="#334173" size={70} />
             </span>
-            <p>Playtest & consultation</p>
+            <p>{`Playtest & consultation`}</p>
           </div>
           <div className="flex justify-center">
             <FaArrowDownLong color="#334173" size={50} />

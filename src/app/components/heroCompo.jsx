@@ -11,11 +11,12 @@ function HeroCompo() {
               Make your dream come true
             </p>
             <p>
+              {`
               Do you have a dream of publishing your own game ? Or do you want
               to make a game that you can play with your friends ? Or do you
               simply want to make your own fantasy world where you immerse
               yourself in it ? Don't worry ! Shooting Star will make all of
-              those things come true !
+              those things come true !`}
             </p>
           </div>
         </div>

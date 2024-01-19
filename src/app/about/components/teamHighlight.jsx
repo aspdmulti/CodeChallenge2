@@ -18,8 +18,9 @@ function TeamHighLight() {
           </div>
           <div className="p-2">
             <p>
-              Known as bossman, he's the founder of the Shooting Star. He's an
-              expert programmer and even more expert at gaming.
+              {`
+            Known as bossman, he's the founder of the Shooting Star. He's an
+            expert programmer and even more expert at gaming.`}
             </p>
           </div>
         </div>
@@ -36,10 +37,11 @@ function TeamHighLight() {
           </div>
           <div className="p-2">
             <p>
+              {`
               Being the wisest person in the office, he's in charge of
               translating whatever the clients want and pass it into our
               programmers. He's also going to give our clients advices and
-              suggestions to make their game even better.
+              suggestions to make their game even better.`}
             </p>
           </div>
         </div>

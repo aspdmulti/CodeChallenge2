@@ -17,8 +17,9 @@ function TestimonyCompo() {
           </div>
           <div className="p-2">
             <p>
+              {`
               "Shooting Star did make my wish come true ! My game is now on sale
-              on Steam, even though I never did any coding before."
+              on Steam, even though I never did any coding before."`}
             </p>
           </div>
         </div>
@@ -32,8 +33,9 @@ function TestimonyCompo() {
           </div>
           <div className="p-2">
             <p>
+              {`
               "My dream game made me never wanted to play outside anymore, which
-              is a good thing."
+              is a good thing."`}
             </p>
           </div>
         </div>
@@ -47,9 +49,10 @@ function TestimonyCompo() {
           </div>
           <div className="p-2">
             <p>
+              {`
               "As a graphic designer I never would've thought of making my own
               game, but Shooting Star made it possible. Now I can see my fantasy
-              world in front of my eyes and earn money while at it."
+              world in front of my eyes and earn money while at it."`}
             </p>
           </div>
         </div>
