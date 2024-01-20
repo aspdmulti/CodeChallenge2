@@ -8,20 +8,24 @@ const NavbarCompo = () => {
 
   const links = [
     {
+      id: 1,
+      link: "/",
+      name: "home",
+    },
+    {
       id: 2,
       link: "about",
+      name: "about",
     },
     {
       id: 3,
       link: "pricing",
+      name: "pricing",
     },
     {
       id: 4,
-      link: "experience",
-    },
-    {
-      id: 5,
-      link: "contact",
+      link: "team",
+      name: "our team",
     },
   ];
 
@@ -41,12 +45,12 @@ const NavbarCompo = () => {
       </div>
 
       <ul className="hidden md:flex">
-        {links.map(({ id, link }) => (
+        {links.map(({ id, link, name }) => (
           <li
             key={id}
             className="nav-links px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 hover:text-white duration-200 link-underline"
           >
-            <Link href={link}>{link}</Link>
+            <Link href={link}>{name}</Link>
           </li>
         ))}
       </ul>
@@ -60,13 +64,13 @@ const NavbarCompo = () => {
 
       {nav && (
         <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-gray-500">
-          {links.map(({ id, link }) => (
+          {links.map(({ id, link, name }) => (
             <li
               key={id}
               className="px-4 cursor-pointer capitalize py-6 text-4xl"
             >
               <Link onClick={() => setNav(!nav)} href={link}>
-                {link}
+                {name}
               </Link>
             </li>
           ))}

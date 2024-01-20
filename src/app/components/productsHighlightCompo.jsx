@@ -37,11 +37,11 @@ function HighlightedProductsCompo() {
               </li>
             </ul>
             <div className="flex justify-center w-full mt-3">
-              <Link href="/contact">
+              <a href="#contact">
                 <button className="rounded py-2 px-4 bg-slate-600 text-white mx-auto">
                   Contact Us
                 </button>
-              </Link>
+              </a>
             </div>
           </div>
         </div>

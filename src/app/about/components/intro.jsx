@@ -10,7 +10,7 @@ function IntroCompo() {
           <div className="bg-slate-700 p-4 mx-6 mt-1 rounded-lg flex-1 text-white">
             <TypeAnimation
               sequence={[
-                "Shooting Star is a game development company dedicated to build a game based on clients request. By using high technology platform, ground-breaking A.I., and team of experts, we assured you that we can get you your dream game. Come, join me for a tour",
+                "Shooting Star is a game development company dedicated to build a game based on clients request. By using high technology platform, ground-breaking A.I., and team of experts, we assured you that we can get you your dream game. Come, join me for a tour by srolling this page",
               ]}
               wrapper="span"
               speed={70}
@@ -26,7 +26,7 @@ function IntroCompo() {
           <div className="bg-slate-700 p-4 my-6 rounded-lg flex-1 text-white text-xl">
             <TypeAnimation
               sequence={[
-                "Shooting Star is a game development company dedicated to build a game based on clients request. By using high technology platform, ground-breaking A.I., and team of experts, we assured you that we can get you your dream game. Come, join me for a tour",
+                "Shooting Star is a game development company dedicated to build a game based on clients request. By using high technology platform, ground-breaking A.I., and team of experts, we assured you that we can get you your dream game. Come, join me for a tour by scrolling this page",
               ]}
               wrapper="span"
               speed={70}

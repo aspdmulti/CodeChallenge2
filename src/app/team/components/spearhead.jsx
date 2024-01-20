@@ -1,10 +1,13 @@
-function TeamHighLight() {
+import { FaFacebook } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { CiMail } from "react-icons/ci";
+import { FaTwitter } from "react-icons/fa";
+
+function SpearheadCompo() {
   return (
-    <div className=" bg-gray-200 text-slate-900 p-5">
-      <div className="text-center font-bold text-2xl my-1">
-        Meet Our Spearhead
-      </div>
-      <div className="grid lg:grid-cols-4 gap-7 my-5 mx-auto w-3/4">
+    <div>
+      <div className="text-center font-bold text-2xl my-1">The Spearhead</div>
+      <div className="grid lg:grid-cols-4 gap-7 my-5 mx-auto w-3/4 pb-5 mb-16">
         <div className=" bg-slate-700 rounded p-3 border-2 border-slate-700 text-white">
           <div className="flex flex-col items-center border-b-2 border-gray-200 pb-2">
             <img
@@ -16,12 +19,19 @@ function TeamHighLight() {
               <p className="font-semibold text-sm">Chief Executive Officer</p>
             </div>
           </div>
-          <div className="p-2">
-            <p>
-              {`
-            Known as bossman, he's the founder of the Shooting Star. He's an
-            expert programmer and even more expert at gaming.`}
-            </p>
+          <div className="p-2 flex items-center justify-center gap-7">
+            <a href="" target="blank">
+              <FaFacebook size={25} />
+            </a>
+            <a href="" target="blank">
+              <FaInstagram size={25} />
+            </a>
+            <a href="" target="blank">
+              <CiMail size={25} />
+            </a>
+            <a href="" target="blank">
+              <FaTwitter size={25} />
+            </a>
           </div>
         </div>
         <div className=" bg-slate-700 rounded p-3 border-2 border-slate-700 text-white">
@@ -35,14 +45,19 @@ function TeamHighLight() {
               <p className="font-semibold text-sm">Senior Project Manager</p>
             </div>
           </div>
-          <div className="p-2">
-            <p>
-              {`
-              Being the wisest person in the office, he's in charge of
-              translating whatever the clients want and pass it into our
-              programmers. He's also going to give our clients advices and
-              suggestions to make their game even better.`}
-            </p>
+          <div className="p-2 flex items-center justify-center gap-7">
+            <a href="" target="blank">
+              <FaFacebook size={25} />
+            </a>
+            <a href="" target="blank">
+              <FaInstagram size={25} />
+            </a>
+            <a href="" target="blank">
+              <CiMail size={25} />
+            </a>
+            <a href="" target="blank">
+              <FaTwitter size={25} />
+            </a>
           </div>
         </div>
         <div className=" bg-slate-700 rounded p-3 border-2 border-slate-700 text-white">
@@ -56,12 +71,19 @@ function TeamHighLight() {
               <p className="font-semibold text-sm">Senior Graphic Designer</p>
             </div>
           </div>
-          <div className="p-2">
-            <p>
-              The artist and advisor behind every beautiful fantasy worlds we
-              made. She can make everything she touches become beautiful, from a
-              realistic sprite to a cartoon sprite.
-            </p>
+          <div className="p-2 flex items-center justify-center gap-7">
+            <a href="" target="blank">
+              <FaFacebook size={25} />
+            </a>
+            <a href="" target="blank">
+              <FaInstagram size={25} />
+            </a>
+            <a href="" target="blank">
+              <CiMail size={25} />
+            </a>
+            <a href="" target="blank">
+              <FaTwitter size={25} />
+            </a>
           </div>
         </div>
         <div className=" bg-slate-700 rounded p-3 border-2 border-slate-700 text-white">
@@ -75,17 +97,23 @@ function TeamHighLight() {
               <p className="font-semibold text-sm">Senior A.I. Developer</p>
             </div>
           </div>
-          <div className="p-2">
-            <p>
-              The brain behind every games we made. By A.I. that he and his team
-              developed, we can get our game development process much faster.
-              Thanks to his A.I., works that supposed to be finished by couples
-              of years can be achieved by couples of months.
-            </p>
+          <div className="p-2 flex items-center justify-center gap-7">
+            <a href="" target="blank">
+              <FaFacebook size={25} />
+            </a>
+            <a href="" target="blank">
+              <FaInstagram size={25} />
+            </a>
+            <a href="" target="blank">
+              <CiMail size={25} />
+            </a>
+            <a href="" target="blank">
+              <FaTwitter size={25} />
+            </a>
           </div>
         </div>
       </div>
     </div>
   );
 }
-export default TeamHighLight;
+export default SpearheadCompo;

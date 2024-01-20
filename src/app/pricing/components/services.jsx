@@ -50,7 +50,9 @@ function ServicesCompo() {
       <div className="flex-col pb-3">
         <div className=" lg:w-2/3 mx-auto">
           <div className="w-full rounded bg-gray-200 border-slate-700 border-2 text-center py-1">
-            <p className="text-slate-700 font-bold text-xl">Designer Package</p>
+            <p className="text-slate-700 font-bold text-xl">
+              Programmer Package
+            </p>
             <p className=" text-slate-900 font-semibold">Start from $250 USD</p>
           </div>
           <div className=" text-slate-900 bg-gray-200 py-3 px-10 border-x-2 border-b-2 border-slate-700 mb-10 rounded-b">
@@ -63,6 +65,28 @@ function ServicesCompo() {
               <li>
                 Character designs & minor details are provided by us based on
                 clients preferences
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div className="flex-col pb-3">
+        <div className=" lg:w-2/3 mx-auto">
+          <div className="w-full rounded bg-gray-200 border-slate-700 border-2 text-center py-1">
+            <p className="text-slate-700 font-bold text-xl">
+              Consultant Package
+            </p>
+            <p className=" text-slate-900 font-semibold">Start from $50 USD</p>
+          </div>
+          <div className=" text-slate-900 bg-gray-200 py-3 px-10 border-x-2 border-b-2 border-slate-700 mb-10 rounded-b">
+            <ul className=" list-disc">
+              <li>
+                Perfect for clients that have pre-built game, but need more
+                advices and playtest
+              </li>
+              <li>Game built based on clients source code</li>
+              <li>
+                Minor details are provided by us based on clients preferences
               </li>
             </ul>
           </div>
