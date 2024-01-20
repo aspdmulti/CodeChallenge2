@@ -18,10 +18,10 @@ function FooterCompo() {
           <a href="/about" className="my-3">
             About Us
           </a>
-          <a href="/aboutUs" className="my-3">
+          <a href="/pricing" className="my-3">
             Our Services
           </a>
-          <a href="/aboutUs" className="my-3">
+          <a href="/team" className="my-3">
             Our Team
           </a>
         </div>
